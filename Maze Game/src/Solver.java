@@ -27,8 +27,7 @@ public class Solver {
 			int n=l.remove(l.size()-1);
 			int m=l.remove(l.size()-1);
 			
-	//		int u1=m-1;
-	//		int u2=n;
+
 					
 			int r1=m;
 			int r2=n+1;
@@ -42,17 +41,7 @@ public class Solver {
 			}
 			else
 			{
-	/*			if(u1>=0 && u1<fin1+1 && u2>=0 && u2<fin2+1){
-				l.add(arr[u1][u2]);
-				l.add(u1);
-				l.add(u2);
-				q.add(new ArrayList<Integer>(l));
-				l.remove(l.size()-1);
-				l.remove(l.size()-1);
-				l.remove(l.size()-1);
-
-				}
-	*/			
+	
 				if(r1>=0 && r1<fin1+1 && r2>=0 && r2<fin2+1){
 					l.add(arr[r1][r2]);
 					l.add(r1);
